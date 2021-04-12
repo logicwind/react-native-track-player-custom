@@ -5,6 +5,8 @@
 
 A fully fledged audio module created for music apps. Provides audio playback, external media controls, chromecast support, background mode and more!
 
+NOTE: This is fork from [this package](https://github.com/perushevandkhmelev-agency/react-native-track-player/tree/edge-2) to meet some specific requirement. 
+
 ---
 
 * [Installation](https://react-native-kit.github.io/react-native-track-player/install/)
