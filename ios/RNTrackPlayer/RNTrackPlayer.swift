@@ -306,6 +306,11 @@ public class RNTrackPlayer: RCTEventEmitter {
     public func destroy() {
         print("Destroying player")
     }
+
+    @objc(customStop)
+    public func customStop() {
+        UIApplication.shared.endReceivingRemoteControlEvents();
+    }
     
     @objc(updateOptions:resolver:rejecter:)
     public func update(options: [String: Any], resolve: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) {
