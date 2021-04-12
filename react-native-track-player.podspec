@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
                     "ios/RNTrackPlayer/Vendor/AudioPlayer/SwiftAudio/**/*.{h,m,swift}"
 
 
-  s.dependency "React"
+  s.dependency "React-Core"
 end
