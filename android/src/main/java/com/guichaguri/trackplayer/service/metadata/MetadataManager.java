@@ -251,7 +251,8 @@ public class MetadataManager {
             }
 
             // Links the media session
-            style.setMediaSession(session.getSessionToken());
+            // Hides the seekbar and other UI in android
+            // style.setMediaSession(session.getSessionToken());
 
             // Updates the compact media buttons for the notification
             if (!compact.isEmpty()) {
